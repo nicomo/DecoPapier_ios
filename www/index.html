@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Claire Sassella. Décoration en papier.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="framework/css/font-awesome.min.css" rel="stylesheet">
+    <link href="framework/css/framework.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="framework/js/jquery-1.8.3.min.js"></script>
+    <script src="framework/js/jquery.css3caching.js"></script>
+    <script src="framework/js/jquery.transit.min.js"></script>
+    <script src="framework/js/jquery.touchSwipe.min.js"></script>
+    <script src="framework/js/jquery.slideshow.js"></script>
+    <script type="text/javascript">
+      function loadpage(i, scrolltobottom) {
+        $('<section>').load(i+'.html', function() {
+          var html = $(this).html();
+          $('section').remove();
+          $('.wrap').append('<section id="chapter'+i+'">'+html+'</section>');
+          popify();
+          pinify();
+          sharify();
+          gotofy();
+          $(".slideshow").slideshow();
+          if (scrolltobottom) {
+            $('body').scrollTop($('.wrap').outerHeight() - $(window).outerHeight());
+          } else {
+            $('body').scrollTop(0);
+          }
+        });
+      }
+
+      function popify() {
+        $('.pop').append('&nbsp;<i class="icon-eye-open"></i>');
+        var poped = false;
+          $('.pop').on({'touchend': function() {
+          $('.ptr').css('opacity', 0);
+          if (! poped) {
+            poped = true;
+            $('body').append('<div class="overlay"></div>');
+            $('.overlay').append($(this).attr('data-content'));
+            $('.overlay>*').append('<button class="close"></button>');
+            $('.overlay>*').css('margin-left', - $('.overlay>*').outerWidth()/2);
+            $('.overlay>*').css('margin-top', - $('.overlay>*').outerHeight()/2);
+            $('*').on({'touchstart' : function(){
+              $('.overlay').remove();
+              poped = false;
+            }});
+          }
+        }});
+      }
+
+      function pinify() {
+        
+        var baseURL = "http://pinterest.citronours.s3-website-us-east-1.amazonaws.com/";
+        var defaultText = "J'ai trouvé cette image dans un livre de citronours.fr"
+        
+        $('figure.pinterest').append('<button class="pinterest"></div>');
+        $('button.pinterest').click(function() {
+                                    var imageURL = $(this).parent().find('img').attr('src').replace('assets/img/img_standalone/', baseURL);
+                                    var descriptionText = $(this).parent().find('figcaption').html() || defaultText;
+                                    window.location = "js-call:::composePin:::"+imageURL;
+                                    });
+      }
+    
+      function sharify() {
+        $('figure.pdf').append('<button class="pdf"></div>');
+        $('button.pdf').click(function() {
+                              var src = $(this).parent().find('img').attr('src');
+                              src = src.replace('assets/img/img_standalone/', '');
+                              src = src.replace('.jpg', '');
+                              window.location = "js-call:::share:::"+src;
+                              });
+      }
+    
+      function gotofy() {
+        $('figure.goto').click(function() {
+                              var target = $(this).attr('target');
+                              window.location = "js-call:::goTo:::"+target;
+                              });
+      }
+
+      $.preload.images();
+
+      $('<section>').load('0.html', function() {
+        $('.wrap').append('<section id="chapter0">'+$(this).html()+'</section>');
+        $(".slideshow").slideshow();
+        popify();
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span9 scrollable" id="page">
+            <div class="wrap"><div>
+        </div><!-- end page -->
+      </div><!-- end row-fluid-->
+    </div><!-- end container -->
+  </body>
+</html>

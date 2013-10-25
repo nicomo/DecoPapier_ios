@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0A3FC669-169B-459F-84B9-23900FD70C08</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DecoPapier</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D3FA0C30-7412-4937-9CFB-3E767E0FB66C</key>
+		<string>https://github.com/nicomo/DecoPapier_ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DecoPapier.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D3FA0C30-7412-4937-9CFB-3E767E0FB66C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nicomo/DecoPapier_ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D3FA0C30-7412-4937-9CFB-3E767E0FB66C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D3FA0C30-7412-4937-9CFB-3E767E0FB66C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DecoPapier_ios</string>
+		</dict>
+	</array>
+</dict>
+</plist>

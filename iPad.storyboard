@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="Ca6-W1-kbP">
+    <dependencies>
+        <deployment defaultVersion="1536" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="mio-Du-F7I">
+            <objects>
+                <navigationController definesPresentationContext="YES" id="Ca6-W1-kbP" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="E87-Ct-Sf2">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="YQn-Fd-Dj8" kind="relationship" relationship="rootViewController" id="PHd-vR-bAg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZV2-Sh-k3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2727" y="1"/>
+        </scene>
+        <!--Root View Controller - Bijoux & accessoires DIY-->
+        <scene sceneID="eWc-g8-azJ">
+            <objects>
+                <viewController id="YQn-Fd-Dj8" customClass="RootViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h4s-Tc-2fR"/>
+                        <viewControllerLayoutGuide type="bottom" id="SRg-ze-eTa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2Cm-Mh-CDa">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bijoux &amp; accessoires DIY" id="nh9-hT-1nU">
+                        <barButtonItem key="leftBarButtonItem" image="burger.png" id="SFQ-nq-QAJ">
+                            <connections>
+                                <action selector="burgerPushed:" destination="YQn-Fd-Dj8" id="cka-g7-HlU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="burger" destination="SFQ-nq-QAJ" id="Kjg-ON-18f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QVP-ms-r2q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3690" y="1"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="burger.png" width="29" height="29"/>
+    </resources>
+    <color key="tintColor" red="0.37254902720451355" green="0.72156864404678345" blue="0.62745100259780884" alpha="1" colorSpace="deviceRGB"/>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

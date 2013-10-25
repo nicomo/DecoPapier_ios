@@ -1,0 +1,209 @@
+@import url('assets/font/karbid.css');
+@import url('assets/font/gentium.css');
+@import url('assets/font/roboto.css');
+
+#page {
+  background-color: #6f767c;
+}
+
+a {
+  color: #4fa1db;
+}
+
+#page h1, #page h2, #page h3, #page h4, #page h5, #page p.author, #page p.publisher {
+  font-family: 'ff-karbid-text-web-pro', sans-serif;
+  font-weight: normal;
+}
+
+/* Cover */
+
+#page header {
+  background: #e592a8;
+}
+
+#page p.publisher {
+  background: white;
+  color: #4fa1db;
+  font-weight: bold;
+  text-align: center;
+}
+#page p.publisher span.tld {
+  color: #cb0078;
+}
+
+#page p.author {
+  background: #5fb8a0;
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+}
+
+#page h1 {
+  font-weight: bold;
+  background: #5fb8a0;
+  color: white;
+}
+@media (width: 768px) { #page h1 { height: 250px; } #page .logo { height: 504px } }
+
+#page .logo {
+  background-image: url('assets/img/cover.png');
+  background-position: 50%;
+  background-size: 100%;
+}
+
+/* Chapter title */
+
+#page h2 {
+  border-bottom: 5px #00e7e0 solid;
+  color: #00817d;
+  background-size: 100% !important;
+  background-position: 50% !important;
+  padding-left: 84px;
+  padding-right: 0px;
+}
+
+#page h2>span {
+  background: rgba(255,255,255,0.8);
+  border-radius: 3px 0 0 3px;
+  padding: 8px 8px;
+  display: block;
+}
+
+/* Chapter backgrounds */
+
+#page h2#h2_XXXX { background: url('assets/img/img_headings/XXXX.jpg'); }
+
+/* chapter bottom border */
+#page #chapter1>h2 { border-bottom: 5px solid #ddcbcb; }
+
+#page h3 {
+  color: #566373;
+}
+
+#page h4 {
+  color: #009b96;
+}
+
+#page h5 {
+  color: #00817d;
+}
+
+#page p, #page ul, #page ol, #page li {
+  font-family: 'Gentium Book Basic';
+  font-weight: 400;
+  font-style: normal;
+}
+
+#page figure, #page video {
+  outline: solid 1px #ddd;
+}
+
+/* use color of chapter nav in images color*/
+#page #chapter1 figure img {
+  border-bottom: 5px solid rgba(221, 203, 203, 0.5);
+}
+
+.overlay figcaption,
+.overlay p,
+#page figcaption {
+  font-family: 'Roboto', sans-serif;
+}
+
+#page blockquote {
+  font-family: 'Gentium Book Basic', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  border-left-color: #cb0078;
+}
+
+#page .pop {
+  background: #EBE7DB;
+}
+
+.overlay figure,
+.overlay p {
+  border: #cb0078 solid 3px;
+}
+
+/* Slideshow */
+
+#page div.slideshow {
+  background: #EBE7DB;
+}
+
+/* Backmatter */
+
+#page #backmatter {
+  background-color: #E5FFFB;
+}
+
+#page #backmatter h2 {
+  color: #82be66;
+}
+
+#page #copyright {
+  color: white;
+  background: #82be66;
+}
+
+#page #backmatter form input {
+  -webkit-appearance: none;
+  background: white;
+  border: #cb0078 solid 1px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 3px 0 0 3px;
+  margin-right: 0px;
+}
+
+#page #backmatter form input[type='submit'] {
+  background: #cb0078;
+  border: #cb0078 solid 1px;
+  border-radius: 0 3px 3px 0;
+  color: white;
+  font-weight: bold;
+  line-height: 28px;
+  margin-left: 0px;
+}
+
+/* Navigation */
+
+nav {
+  font-family: 'ff-karbid-text-web-pro', sans-serif;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  background-image: url('framework/img/active.png'), url('framework/img/shadow.png');
+  background-size: 40px;
+  background-position: 256px center, 256px center;
+  background-repeat: no-repeat;
+}
+
+nav a.active {
+  background-color: transparent;
+  background-image: url('framework/img/active.png'), url('framework/img/shadow.png');
+  background-size: 40px;
+  background-position: 216px center, 256px center;
+  background-repeat: no-repeat;
+}
+
+nav a:hover {
+  color: white;
+}
+
+nav>ul>li>a,
+nav>ul>li>a:hover {
+  color: #cccccc;
+  font-weight: normal;
+  text-align: center;
+}
+
+nav ul ul {
+  box-shadow: inset 0px 5px 10px 0px rgba(0,0,0,.2), inset 0px -5px 10px 0px rgba(0,0,0,.2);
+}
+
+nav>ul>li>ul>li>ul {
+  background-color: transparent;
+  margin-bottom: 0px;
+}

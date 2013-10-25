@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gentium Book Basic'), local('GentiumBookBasic'), url('GentiumBookBasic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Gentium Book Basic Bold'), local('GentiumBookBasic-Bold'), url('GentiumBookBasic-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Gentium Book Basic Italic'), local('GentiumBookBasic-Italic'), url('GentiumBookBasic-Italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'Gentium Book Basic';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Gentium Book Basic Bold Italic'), local('GentiumBookBasic-BoldItalic'), url('GentiumBookBasic-BoldItalic.woff') format('woff');
+}
