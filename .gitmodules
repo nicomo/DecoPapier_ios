@@ -1,0 +1,3 @@
+[submodule "www/framework"]
+	path = www/framework
+	url = https://github.com/nicomo/framework.git
