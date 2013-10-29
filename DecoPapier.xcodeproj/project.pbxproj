@@ -12,24 +12,10 @@
 		2010FCE31797138B0092C107 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FCE21797138B0092C107 /* UIKit.framework */; };
 		2010FCE51797138B0092C107 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FCE41797138B0092C107 /* Foundation.framework */; };
 		2010FCE71797138B0092C107 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FCE61797138B0092C107 /* CoreGraphics.framework */; };
-		2010FD2117975E520092C107 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FD2017975E520092C107 /* AudioToolbox.framework */; };
-		2010FD2417975E5A0092C107 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FD2217975E5A0092C107 /* AddressBook.framework */; };
-		2010FD2517975E5A0092C107 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FD2317975E5A0092C107 /* AddressBookUI.framework */; };
-		2010FD2717975E640092C107 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FD2617975E630092C107 /* AVFoundation.framework */; };
-		2010FD2917975E6C0092C107 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FD2817975E6C0092C107 /* CoreLocation.framework */; };
-		2010FD2B17975E8E0092C107 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FD2A17975E8E0092C107 /* MediaPlayer.framework */; };
-		2010FD2D17975E940092C107 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FD2C17975E940092C107 /* QuartzCore.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		2010FD2F17975E9D0092C107 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FD2E17975E9D0092C107 /* SystemConfiguration.framework */; };
-		2010FD3117975EA60092C107 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FD3017975EA60092C107 /* MobileCoreServices.framework */; };
-		2010FD3317975EB10092C107 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FD3217975EB10092C107 /* CoreMedia.framework */; };
-		2010FDC1179762230092C107 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FDC0179762230092C107 /* ImageIO.framework */; };
-		2010FDC3179762400092C107 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2010FDC2179762400092C107 /* AssetsLibrary.framework */; };
 		2010FDC5179763A10092C107 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 2010FDC4179763A10092C107 /* www */; };
 		203A233A17E3301E005847FC /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209CCCE817E32E520058CC1E /* iPad.storyboard */; };
 		209CCCE117E3291B0058CC1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 209CCCDF17E3291B0058CC1E /* InfoPlist.strings */; };
 		209CCCE317E329270058CC1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CCCE217E329270058CC1E /* main.m */; };
-		20E98D1617A6A4EE0085D7CA /* Pinterest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20E98D1317A6A4EE0085D7CA /* Pinterest.framework */; };
-		20E98D1717A6A4EE0085D7CA /* PinterestSDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20E98D1517A6A4EE0085D7CA /* PinterestSDKResources.bundle */; };
 		20FDA46517E3271B006D63F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FDA46017E3271B006D63F7 /* AppDelegate.m */; };
 		20FDA46617E3271B006D63F7 /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FDA46117E3271B006D63F7 /* burger.png */; };
 		20FDA46717E3271B006D63F7 /* burger@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FDA46217E3271B006D63F7 /* burger@2x.png */; };
@@ -51,6 +37,8 @@
 		37D585271802AA7900EEBCFB /* icon-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D585231802AA7900EEBCFB /* icon-1@2x.png */; };
 		37D585281802AA7900EEBCFB /* icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D585241802AA7900EEBCFB /* icon-2.png */; };
 		37D585291802AA7900EEBCFB /* icon-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D585251802AA7900EEBCFB /* icon-2@2x.png */; };
+		DF16C0D1181F977500CA56DF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF16C0D0181F977500CA56DF /* QuartzCore.framework */; };
+		DF16C0D7181F997400CA56DF /* Pinterest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF16C0D6181F997400CA56DF /* Pinterest.framework */; };
 		DF2D16F11806E3930062511F /* icon-76.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2D16EF1806E3930062511F /* icon-76.png */; };
 		DF2D16F21806E3930062511F /* icon-76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF2D16F01806E3930062511F /* icon-76@2x.png */; };
 		DFF1E574180579A00064597D /* icon-0.png in Resources */ = {isa = PBXBuildFile; fileRef = DFF1E5721805799F0064597D /* icon-0.png */; };
@@ -64,26 +52,12 @@
 		2010FCE21797138B0092C107 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2010FCE41797138B0092C107 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2010FCE61797138B0092C107 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2010FD2017975E520092C107 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		2010FD2217975E5A0092C107 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
-		2010FD2317975E5A0092C107 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
-		2010FD2617975E630092C107 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		2010FD2817975E6C0092C107 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		2010FD2A17975E8E0092C107 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		2010FD2C17975E940092C107 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		2010FD2E17975E9D0092C107 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		2010FD3017975EA60092C107 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
-		2010FD3217975EB10092C107 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		2010FDC0179762230092C107 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
-		2010FDC2179762400092C107 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		2010FDC4179763A10092C107 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		209CCCDC17E328FF0058CC1E /* DecoPapier-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "DecoPapier-Info.plist"; path = "Classes/DecoPapier-Info.plist"; sourceTree = SOURCE_ROOT; };
 		209CCCDD17E328FF0058CC1E /* DecoPapier-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "DecoPapier-Prefix.pch"; path = "Classes/DecoPapier-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		209CCCE017E3291B0058CC1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Classes/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
 		209CCCE217E329270058CC1E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = SOURCE_ROOT; };
 		209CCCE817E32E520058CC1E /* iPad.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
-		20E98D1317A6A4EE0085D7CA /* Pinterest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Pinterest.framework; sourceTree = "<group>"; };
-		20E98D1517A6A4EE0085D7CA /* PinterestSDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PinterestSDKResources.bundle; sourceTree = "<group>"; };
 		20FDA45F17E3271B006D63F7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = SOURCE_ROOT; };
 		20FDA46017E3271B006D63F7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		20FDA46117E3271B006D63F7 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = burger.png; path = Classes/burger.png; sourceTree = SOURCE_ROOT; };
@@ -111,6 +85,8 @@
 		37D585231802AA7900EEBCFB /* icon-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-1@2x.png"; sourceTree = "<group>"; };
 		37D585241802AA7900EEBCFB /* icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-2.png"; sourceTree = "<group>"; };
 		37D585251802AA7900EEBCFB /* icon-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-2@2x.png"; sourceTree = "<group>"; };
+		DF16C0D0181F977500CA56DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DF16C0D6181F997400CA56DF /* Pinterest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pinterest.framework; path = Pinterest.embeddedframework/Pinterest.framework; sourceTree = "<group>"; };
 		DF2D16EF1806E3930062511F /* icon-76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76.png"; path = "Classes/icons/icon-76.png"; sourceTree = SOURCE_ROOT; };
 		DF2D16F01806E3930062511F /* icon-76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-76@2x.png"; path = "Classes/icons/icon-76@2x.png"; sourceTree = SOURCE_ROOT; };
 		DFF1E5721805799F0064597D /* icon-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-0.png"; sourceTree = "<group>"; };
@@ -122,22 +98,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2010FDC3179762400092C107 /* AssetsLibrary.framework in Frameworks */,
-				2010FDC1179762230092C107 /* ImageIO.framework in Frameworks */,
-				2010FD3317975EB10092C107 /* CoreMedia.framework in Frameworks */,
-				2010FD3117975EA60092C107 /* MobileCoreServices.framework in Frameworks */,
-				2010FD2F17975E9D0092C107 /* SystemConfiguration.framework in Frameworks */,
-				2010FD2D17975E940092C107 /* QuartzCore.framework in Frameworks */,
-				2010FD2B17975E8E0092C107 /* MediaPlayer.framework in Frameworks */,
-				2010FD2917975E6C0092C107 /* CoreLocation.framework in Frameworks */,
-				2010FD2717975E640092C107 /* AVFoundation.framework in Frameworks */,
-				2010FD2417975E5A0092C107 /* AddressBook.framework in Frameworks */,
-				2010FD2517975E5A0092C107 /* AddressBookUI.framework in Frameworks */,
-				2010FD2117975E520092C107 /* AudioToolbox.framework in Frameworks */,
+				DF16C0D7181F997400CA56DF /* Pinterest.framework in Frameworks */,
+				DF16C0D1181F977500CA56DF /* QuartzCore.framework in Frameworks */,
 				2010FCE31797138B0092C107 /* UIKit.framework in Frameworks */,
 				2010FCE51797138B0092C107 /* Foundation.framework in Frameworks */,
 				2010FCE71797138B0092C107 /* CoreGraphics.framework in Frameworks */,
-				20E98D1617A6A4EE0085D7CA /* Pinterest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,7 +131,6 @@
 				209CCCE817E32E520058CC1E /* iPad.storyboard */,
 				20FDA48D17E32835006D63F7 /* config.xml */,
 				2010FDC4179763A10092C107 /* www */,
-				20E98D1217A6A4EE0085D7CA /* Pinterest.embeddedframework */,
 				2010FCE81797138B0092C107 /* Classes */,
 				2010FCE11797138B0092C107 /* Frameworks */,
 				2010FCE01797138B0092C107 /* Products */,
@@ -184,18 +148,8 @@
 		2010FCE11797138B0092C107 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2010FDC2179762400092C107 /* AssetsLibrary.framework */,
-				2010FDC0179762230092C107 /* ImageIO.framework */,
-				2010FD3217975EB10092C107 /* CoreMedia.framework */,
-				2010FD3017975EA60092C107 /* MobileCoreServices.framework */,
-				2010FD2E17975E9D0092C107 /* SystemConfiguration.framework */,
-				2010FD2C17975E940092C107 /* QuartzCore.framework */,
-				2010FD2A17975E8E0092C107 /* MediaPlayer.framework */,
-				2010FD2817975E6C0092C107 /* CoreLocation.framework */,
-				2010FD2617975E630092C107 /* AVFoundation.framework */,
-				2010FD2217975E5A0092C107 /* AddressBook.framework */,
-				2010FD2317975E5A0092C107 /* AddressBookUI.framework */,
-				2010FD2017975E520092C107 /* AudioToolbox.framework */,
+				DF16C0D6181F997400CA56DF /* Pinterest.framework */,
+				DF16C0D0181F977500CA56DF /* QuartzCore.framework */,
 				2010FCE21797138B0092C107 /* UIKit.framework */,
 				2010FCE41797138B0092C107 /* Foundation.framework */,
 				2010FCE61797138B0092C107 /* CoreGraphics.framework */,
@@ -262,23 +216,6 @@
 				DF2D16F01806E3930062511F /* icon-76@2x.png */,
 			);
 			path = icons;
-			sourceTree = "<group>";
-		};
-		20E98D1217A6A4EE0085D7CA /* Pinterest.embeddedframework */ = {
-			isa = PBXGroup;
-			children = (
-				20E98D1317A6A4EE0085D7CA /* Pinterest.framework */,
-				20E98D1417A6A4EE0085D7CA /* Resources */,
-			);
-			path = Pinterest.embeddedframework;
-			sourceTree = "<group>";
-		};
-		20E98D1417A6A4EE0085D7CA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				20E98D1517A6A4EE0085D7CA /* PinterestSDKResources.bundle */,
-			);
-			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,7 +300,6 @@
 				37D585291802AA7900EEBCFB /* icon-2@2x.png in Resources */,
 				20FDA47E17E327F7006D63F7 /* icon-72@2x.png in Resources */,
 				200C5A4317E74A39007D8133 /* icon-blank.png in Resources */,
-				20E98D1717A6A4EE0085D7CA /* PinterestSDKResources.bundle in Resources */,
 				20FDA46617E3271B006D63F7 /* burger.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -460,8 +396,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Pinterest.embeddedframework\"",
-					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts\"",
+					"\\\\\\\"$(SRCROOT)/Pinterest.embeddedframework\\\\\\\"",
+					"\\\\\\\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts\\\\\\\"",
+					/Users/nicomo/Sites/DecoPapier_ios,
+					/Users/nicomo/Sites/DecoPapier_ios/Pinterest.embeddedframework,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/DecoPapier-Prefix.pch";
@@ -497,8 +435,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/Pinterest.embeddedframework\"",
-					"\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts\"",
+					"\\\\\\\"$(SRCROOT)/Pinterest.embeddedframework\\\\\\\"",
+					"\\\\\\\"$(BUILD_ROOT)/../IntermediateBuildFilesPath/UninstalledProducts\\\\\\\"",
+					/Users/nicomo/Sites/DecoPapier_ios,
+					/Users/nicomo/Sites/DecoPapier_ios/Pinterest.embeddedframework,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Classes/DecoPapier-Prefix.pch";
