@@ -71,7 +71,20 @@ a {
 
 /* Chapter backgrounds */
 
-#page h2#h2_XXXX { background: url('assets/img/img_headings/XXXX.jpg'); }
+#page h2#h2_CS_4988 { background: url('assets/img/img_headings/CS_4988.jpg'); }
+#page h2#h2_CS_4853 { background: url('assets/img/img_headings/CS_4853.jpg'); }
+#page h2#h2_CS_5386 { background: url('assets/img/img_headings/CS_5386.jpg'); }
+
+
+
+
+
+
+
+
+
+
+
 
 /* chapter bottom border */
 #page #chapter1>h2 { border-bottom: 5px solid #ddcbcb; }
