@@ -22,6 +22,7 @@ A/ export from photoshop
         -- chapter title (h2) images in assets/img/img_headings/
 	-- popover images in assets/img/img_popover/
 	-- slideshow images in assets/img/img_slideshow/
+        — images used in sliders in qssets/img/img_slider/
 
 3/ compress : put each exported img file in ImageOptim (see http://imageoptim.com/)
 
