@@ -17,12 +17,13 @@ A/ export from photoshop
 	-- popover images in portrait: 618x926 (309x463)
 	-- slideshow image in landscape: 1024x730 (512x365)
 	-- slideshow image in portrait: 618x926 (309x463)
+	-- slider images in landscape only: 1236x824 (618x412)
 - save in appropriate directory (create if necessary) according to destination, using file name referenced in photoshop, e.g. 0580R1.jpg
 	-- standalone images in assets/img/img_standalone/
         -- chapter title (h2) images in assets/img/img_headings/
 	-- popover images in assets/img/img_popover/
 	-- slideshow images in assets/img/img_slideshow/
-        — images used in sliders in qssets/img/img_slider/
+        -- images used in sliders in assets/img/img_slider/
 
 3/ compress : put each exported img file in ImageOptim (see http://imageoptim.com/)
 
