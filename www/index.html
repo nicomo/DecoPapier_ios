@@ -31,6 +31,7 @@
         });
       }
 
+      // manages popover contents
       function popify() {
         $('.pop').append('&nbsp;<i class="icon-eye-open"></i>');
         var poped = false;
@@ -51,6 +52,7 @@
         }});
       }
 
+      // sends images from the book to pinterest app on device
       function pinify() {
         
         var baseURL = "http://pinterest.citronours.s3-website-us-east-1.amazonaws.com/";
@@ -63,7 +65,8 @@
                                     window.location = "js-call:::composePin:::"+imageURL;
                                     });
       }
-    
+      
+      // use the share function in ios to print pdfs
       function sharify() {
         $('figure.pdf').append('<button class="pdf"></div>');
         $('button.pdf').click(function() {
@@ -73,7 +76,7 @@
                               window.location = "js-call:::share:::"+src;
                               });
       }
-    
+     
       function gotofy() {
         $('figure.goto').click(function() {
                               var target = $(this).attr('target');
