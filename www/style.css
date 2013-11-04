@@ -18,7 +18,7 @@ a {
 /* Cover */
 
 #page header {
-  background: #e592a8;
+  background: #c51d49;
 }
 
 #page p.publisher {
@@ -32,7 +32,7 @@ a {
 }
 
 #page p.author {
-  background: #5fb8a0;
+  background: #017686;
   color: white;
   font-weight: bold;
   font-size: 45px;
@@ -40,7 +40,7 @@ a {
 
 #page h1 {
   font-weight: bold;
-  background: #5fb8a0;
+  background: #017686;
   color: white;
 }
 @media (width: 768px) { #page h1 { height: 250px; } #page .logo { height: 504px } }
@@ -94,6 +94,25 @@ a {
 
 /* chapter bottom border */
 #page #chapter1>h2 { border-bottom: 5px solid #ddcbcb; }
+#page #chapter2>h2 { border-bottom: 5px solid #ddcbcb; }
+#page #chapter3>h2 { border-bottom: 5px solid #f77d6b; }
+#page #chapter4>h2 { border-bottom: 5px solid #0fa5e0; }
+#page #chapter5>h2 { border-bottom: 5px solid #d8b88f; }
+#page #chapter6>h2 { border-bottom: 5px solid #99241f; }
+#page #chapter7>h2 { border-bottom: 5px solid #593723; }
+#page #chapter8>h2 { border-bottom: 5px solid #e8e656; }
+#page #chapter9>h2 { border-bottom: 5px solid #d3aa34; }
+#page #chapter10>h2 { border-bottom: 5px solid #9fe2f1; }
+#page #chapter11>h2 { border-bottom: 5px solid #842a32; }
+#page #chapter12>h2 { border-bottom: 5px solid #5beb5b; }
+#page #chapter13>h2 { border-bottom: 5px solid #7d2031; }
+#page #chapter14>h2 { border-bottom: 5px solid #eddfbb; }
+#page #chapter15>h2 { border-bottom: 5px solid #74a651; }
+#page #chapter16>h2 { border-bottom: 5px solid #0f5fba; }
+#page #chapter17>h2 { border-bottom: 5px solid #2b2e3a; }
+#page #chapter18>h2 { border-bottom: 5px solid #0d0004; }
+#page #chapter19>h2 { border-bottom: 5px solid #a72b18; }
+#page #chapter20>h2 { border-bottom: 5px solid #25ff9b; }
 
 #page h3 {
   color: #566373;
@@ -121,7 +140,63 @@ a {
 #page #chapter1 figure img {
   border-bottom: 5px solid rgba(221, 203, 203, 0.5);
 }
-
+#page #chapter2 figure img {
+  border-bottom: 5px solid rgba(221, 203, 203, 0.5);
+}
+#page #chapter3 figure img {
+  border-bottom: 5px solid rgba(247, 125, 107, 0.5);
+}
+#page #chapter4 figure img {
+  border-bottom: 5px solid rgba(15, 165, 224, 0.5);
+}
+#page #chapter5 figure img {
+  border-bottom: 5px solid rgba(216, 184, 143, 0.5);
+}
+#page #chapter6 figure img {
+  border-bottom: 5px solid rgba(153, 36, 31, 0.5);
+}
+#page #chapter7 figure img {
+  border-bottom: 5px solid rgba(89, 55, 35, 0.5);
+}
+#page #chapter8 figure img {
+  border-bottom: 5px solid rgba(232, 230, 86, 0.5);
+}
+#page #chapter9 figure img {
+  border-bottom: 5px solid rgba(211, 170, 52, 0.5);
+}
+#page #chapter10 figure img {
+  border-bottom: 5px solid rgba(159, 226, 241, 0.5);
+}
+#page #chapter11 figure img {
+  border-bottom: 5px solid rgba(132, 42, 50, 0.5);
+}
+#page #chapter12 figure img {
+  border-bottom: 5px solid rgba(91, 235, 91, 0.5);
+}
+#page #chapter13 figure img {
+  border-bottom: 5px solid rgba(125, 32, 49, 0.5);
+}
+#page #chapter14 figure img {
+  border-bottom: 5px solid rgba(237, 223, 187, 0.5);
+}
+#page #chapter15 figure img {
+  border-bottom: 5px solid rgba(116, 166, 81, 0.5);
+}
+#page #chapter16 figure img {
+  border-bottom: 5px solid rgba(15, 95, 186, 0.5);
+}
+#page #chapter17 figure img {
+  border-bottom: 5px solid rgba(43, 46, 58, 0.5);
+}
+#page #chapter18 figure img {
+  border-bottom: 5px solid rgba(13, 0, 4, 0.5);
+}
+#page #chapter19 figure img {
+  border-bottom: 5px solid rgba(167, 43, 24, 0.5);
+}
+#page #chapter20 figure img {
+  border-bottom: 5px solid rgba(37, 255, 155, 0.5);
+}
 .overlay figcaption,
 .overlay p,
 #page figcaption {
