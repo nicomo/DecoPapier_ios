@@ -73,6 +73,7 @@
                               var src = $(this).parent().find('img').attr('src');
                               src = src.replace('assets/img/img_standalone/', '');
                               src = src.replace('.jpg', '');
+                              src = src.replace('.png', '');
                               window.location = "js-call:::share:::"+src;
                               });
       }
